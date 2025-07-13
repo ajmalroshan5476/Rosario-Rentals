@@ -5,7 +5,7 @@ import Loader from '../components/Loader'
 import { useAppContext } from '../context/AppContext'
 import toast from 'react-hot-toast'
 import { motion } from 'motion/react'
-import api from '../api/api' // ✅ centralized axios
+import api from '../api/api.js' // ✅ centralized axios
 
 const CarDetails = () => {
   const { id } = useParams()

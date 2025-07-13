@@ -6,7 +6,7 @@ import { useSearchParams } from 'react-router-dom'
 import { useAppContext } from '../context/AppContext'
 import toast from 'react-hot-toast'
 import { motion } from 'motion/react'
-import api from '../api/api' // ✅ centralized axios instance
+import api from '../api/api.js' // ✅ centralized axios instance
 
 const Cars = () => {
   const [searchParams] = useSearchParams()

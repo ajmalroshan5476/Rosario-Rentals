@@ -3,7 +3,7 @@ import { assets } from '../../assets/assets'
 import Title from '../../components/owner/Title'
 import { useAppContext } from '../../context/AppContext'
 import toast from 'react-hot-toast'
-import api from '../../api/api' // ✅ use centralized API
+import api from '../../api/api.js' // ✅ use centralized API
 
 const ManageCars = () => {
   const { isOwner, currency } = useAppContext()

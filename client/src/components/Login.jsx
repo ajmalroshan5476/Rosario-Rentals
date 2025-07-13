@@ -1,7 +1,7 @@
 import React from 'react'
 import toast from 'react-hot-toast'
 import { useAppContext } from '../context/AppContext'
-import api from '../api/api' // ✅ use shared axios instance
+import api from '../api/api.js' // ✅ use shared axios instance
 
 const Login = () => {
     const { setShowLogin, setToken, navigate } = useAppContext()

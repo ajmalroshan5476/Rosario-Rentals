@@ -3,7 +3,7 @@ import Title from '../../components/owner/Title';
 import { assets } from '../../assets/assets';
 import { useAppContext } from '../../context/AppContext';
 import toast from 'react-hot-toast';
-import api from '../../api/api'; // ✅ correct relative path from `pages/owner/AddCar.jsx`
+import api from '../../api/api.js'; // ✅ correct relative path from `pages/owner/AddCar.jsx`
  // ✅ import centralized axios instance
 
 const AddCar = () => {
